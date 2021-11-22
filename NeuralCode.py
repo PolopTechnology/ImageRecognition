@@ -9,21 +9,6 @@ Original file is located at
 
 from PIL import Image
 
-"""
-foo = Image.open("kaikaikitan.jpg")
-foo = foo.resize((30,30), Image.ANTIALIAS)
-foo.save("resulting.jpg",quality=95)
-
-for x in range(20):
-  try:
-    foo = Image.open("Cats/" + str(x) + ".jpg")
-    foo = foo.resize((30,30), Image.ANTIALIAS)
-    foo.save("result" + str(x) + ".jpg",quality=95)
-  except:
-    continue
-
-"""
-
 def ReLU(Z):
   if Z < 0:
     return 0
